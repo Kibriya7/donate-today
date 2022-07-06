@@ -1,0 +1,307 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+}
+/* hero section start */
+#hero-section{
+  background-image: url(img/donation13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  position: relative;
+}
+#hero-section::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color:rgba(58, 55, 55,0.7);
+}
+.hero-part{
+  position: relative;
+  z-index: 100;
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.hero-part h1{
+font-size: 40px;
+font-weight: bold;
+}
+.hero-part p{
+  font-size: 14px;
+  padding: 20px 200px;
+}
+.hero-part a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  background-color: #FF5959;
+  border-radius: 5px;
+  font-weight: 500;
+}
+/* hero section end */
+/* donate section start */
+#amount{
+  padding: 50px 0;
+}
+.donate-section{
+  width: 100%;
+}
+.donate-section h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.donate-section p{
+  text-align: center;
+  font-size: 14px;
+  padding: 0 600px;
+}
+.donate-part{
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.amount1{
+  width: 20%;
+  background-color: #e0dddd;
+  text-align: center;
+  padding: 30px 15px;
+  margin: 0 10px;
+}
+.amount2{
+  width: 20%;
+  background-color: #FFEEEE;
+  text-align: center;
+  padding: 30px 15px;
+  margin: 0 10px;
+  border: 3px solid #FF6161;
+  color: #FF6161;
+  font-weight: 600;
+}
+.amount3{
+  width: 20%;
+  background-color: #e0dddd;
+  text-align: center;
+  padding: 30px 15px;
+  margin: 0 10px;
+}
+.amount4{
+  width: 20%;
+  background-color: #e0dddd;
+  text-align: center;
+  padding: 30px 15px;
+  margin: 0 10px;
+}
+.amount5{
+  width: 20%;
+  background-color: #e0dddd;
+  text-align: center;
+  padding: 30px 15px;
+  margin: 0 10px;
+}
+.hrojental{
+  width: 1140px;
+  margin-bottom: 40px;
+  color: #FF5959;
+}
+.donate-part2 {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.donate-part2 p{
+  text-align: center;
+}
+.donate-part2 a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  background-color: #FF5959;
+  border-radius: 5px;
+  font-weight: 500;
+}
+/* donate part end */
+/* planing part start */
+#plan-section{
+  width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.plan-part{
+  text-align: center;
+  padding: 20px 200px;
+}
+.plan-part h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+.box-part{
+  display: flex;
+  width: 1140px;
+}
+.box1{
+  width: 32%;
+  background-color: #EDF5F6;
+  padding: 30px 20px;
+  margin: 0 15px;
+  border-radius: 15px;
+}
+.box2{
+  width: 32%;
+  background-color: #FFEEEE;
+  padding: 30px 20px;
+  margin: 0 15px;
+  border-radius: 15px;
+}
+.box3{
+  width: 32%;
+  background-color: #FFF4D6;
+  padding: 30px 20px;
+  margin: 0 15px;
+  border-radius: 15px;
+}
+/* planing part end */
+/* help section start */
+#donation-section{
+  background-image: url(img/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.help-us-section{
+  width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.help-us-part1{
+  width: 50%;
+  padding: 0 30px;
+}
+.help-us-part1 h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+.help-us-part1 p{
+  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 25px;
+}
+.help-us-part1 a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  background-color: #FF5959;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.help-us-part2{
+  width: 50%;
+}
+.help-us-part2 img{
+  width: 500px;
+  border-radius: 30px 0 30px 0;
+}
+/* help section part end */
+/* suvive part start */
+#suvive-section{
+  width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.suvive-part1{
+  width: 50%;
+}
+.suvive-part1 img{
+  width: 500px;
+  border-radius: 30px 0 30px 0;
+}
+.suvive-part2{
+  width: 50%;
+  padding: 20px 20px;
+}
+.suvive-part2 h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+.suvive-part2 p{
+  font-size: 14px;
+  padding-bottom: 25px;
+  text-align: justify;
+}
+.suvive-part2 a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  background-color: #FF5959;
+  border-radius: 5px;
+  font-weight: 500;
+}
+/* suvive part end */
+/* last part start */
+#updates-section{
+  background-color: #EDF5F6;
+  text-align: center;
+  padding: 50px 0;
+
+ 
+}
+.update-part1 h1{
+  font-size: 40px;
+  font-weight: bold;
+  width: 1140px;
+  margin: 0 auto;
+}
+.update-part1 p{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.update-part2{
+  width: 50%;
+  background-color: #FFF4D6;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.mail{
+  background-color: #ececec;
+  padding: 10px 80px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px #686767, -10px -10px 15px #bbbbbb;
+  color: #000;
+  font-size: 14px;
+  border: none;
+  font-weight: 500;
+}
+.btn{
+  background-color: #ececec;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px #686767, -10px -10px 15px #bbbbbb;
+  color: #000;
+  font-size: 14px;
+  border: none;
+  font-weight: 500;
+}
+/* last part end */
+footer{
+text-align: center;
+padding: 50px;
+}
+footer h1{
+  font-style: italic;
+  font-size: 30px;
+  color: orangered;
+  font-weight: bold;
+  font-family: 'Playfair Display'
+}
+footer p{
+  font-size: 14px;
+}
